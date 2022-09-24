@@ -1,0 +1,234 @@
+html{
+    height: 100%;
+}
+
+
+body{
+  height: 100%;
+  margin: 0;  
+}
+
+
+#container{
+    height: 100%;
+    display: flex;
+}
+
+/* INICIO Lado Esquerdo */
+#ladoEsquerdo{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-DontAccount{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imagemUrso{
+    height: 100px;
+    width: 120px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#loginLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#dontHaveAccount{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#getWpForms{
+    text-decoration: none;
+    color: rgb(218, 105, 0);
+}
+
+#inputs-login{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#emailAdressLabel{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#emailInput{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30%;
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid rgb(175, 175, 175);
+    padding-left: 10px;
+}
+
+#passwordLabel{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#passwordInput{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30%;
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid rgb(175, 175, 175);
+    padding-left: 10px;
+}
+
+#checkboxStayLogged{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkboxInput{
+    height: 15px;
+    width: 15px;
+}
+
+#continuarLogadoLabel{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+#loginButton-forgotPass{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginButton{
+    height: 30%;
+    width: 60%;
+    background-color: rgb(255, 102, 0);
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#loginButton:hover{
+    cursor: pointer;
+    transition: 200ms;
+    transform: scale(1.05);
+}
+
+#forgotYourPass{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#otherInfos{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#informations{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#privacy-serviceTerms{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#privacyPolicy{
+    padding-right: 10px;
+}
+
+#serviceTerms{
+    padding-left: 10px;
+}
+/* FIM Lado Esquerdo */
+
+
+/* INICIO Lado Direito */
+#ladoDireito{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fundobear.png);
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+#infos{
+    width: 40%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#title{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+#description{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+#learnMoreButton{
+    height: 10%;
+    width: 70%;
+    font-size: 20px;
+    background-color: rgb(255, 102, 0);
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+#learnMoreButton:hover{
+    transition: 200ms;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* FIM lado Direito */
